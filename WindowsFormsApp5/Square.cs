@@ -9,7 +9,7 @@ namespace WindowsFormsApp5
 {
 	class Square: Shape
 	{
-		public Square(Point[] p,Color color) : base(p,color)
+		public Square(Point[] p) : base(p)
 		{
 			if (p.Length != 4)
 			{

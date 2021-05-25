@@ -13,12 +13,10 @@ namespace WindowsFormsApp5
 {
 	class Shape
 	{
-		private Color color;
 		private List<Point> list = new List<Point>();
 
-		public Shape(Point[] p,Color color)
+		public Shape(Point[] p)
 		{
-			this.color = color;
 			for (int i = 0; i < p.Length; i++)
 			{
 				list.Add(p[i]);
@@ -28,10 +26,6 @@ namespace WindowsFormsApp5
 				ERROR("ОШИБКА");
 				
 			}
-		}
-		public Color getColor()
-		{
-			return color;
 		}
 
 		public Point[] getPoint()

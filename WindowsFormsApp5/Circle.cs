@@ -10,7 +10,7 @@ namespace WindowsFormsApp5
 	class Circle:Shape
 	{
 		public float radius { get; }
-		public Circle(Point[] p,float radius, Color color) : base(p, color)
+		public Circle(Point[] p,float radius) : base(p)
 		{
 			this.radius = radius;
 			if (p.Length != 1)

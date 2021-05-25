@@ -10,7 +10,7 @@ namespace WindowsFormsApp5
 	class Triangle:Shape
 	{
 
-		public Triangle(Point[] p, Color color) : base(p,color)
+		public Triangle(Point[] p) : base(p)
 		{
 			if(p.Length != 3)
 			{
